@@ -1,0 +1,35 @@
+  .header {padding-top: 29px;
+      padding-bottom: 29px;}
+  
+  .navigation {
+      display: flex;
+      align-items: center;
+  }
+  .navigation_list{
+      display: flex;
+      align-items: center;
+  }
+
+  .navigation_item {
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    /* identical to box height, or 100% */
+    
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    
+    /* Gray 1 */
+    
+    color: #333333;
+    &:not(:last-child) {
+        margin-right: 60px;
+    }
+
+  }
+
+  .logo {
+      margin-right: 300px;
+  }

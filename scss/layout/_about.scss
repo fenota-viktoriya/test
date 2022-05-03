@@ -1,0 +1,26 @@
+.about {
+    padding-top: 52px;
+    padding-bottom: 83px;
+
+
+}
+.about-wrapper{
+display: flex;
+padding-left: 75px;
+padding-right: 95px;
+ height: 435px;
+}
+.about-list {
+    width:570px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-right: 30px;
+}
+img {
+display: flex;
+}
+
+.about-information{
+    width: 400px;
+}
